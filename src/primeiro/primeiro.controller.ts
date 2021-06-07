@@ -1,7 +1,16 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 
-@Controller('primeiro')
+
+
+@Controller('/api/primeiro')
 export class PrimeiroController {
+
+
+    @Get()
+    async index(){
+
+        return {msg:"Rota 1 do primeiro controller. Hello Nest!"}
+    }
 
     
 }
