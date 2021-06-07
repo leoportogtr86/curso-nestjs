@@ -15,3 +15,6 @@ https://docs.nestjs.com/
     nest new project-name
 
 
+#### Criando um Módulo
+
+    nest g module nome-modulo
