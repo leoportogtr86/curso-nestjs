@@ -18,3 +18,9 @@ https://docs.nestjs.com/
 #### Criando um Módulo
 
     nest g module nome-modulo
+
+
+
+#### Criando um Controller
+
+    nest g controller nome-controller    
