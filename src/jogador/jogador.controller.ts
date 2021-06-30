@@ -1,4 +1,3 @@
-import { Jogador } from './../interfaces/Jogador.interface';
 import { Controller, Get } from '@nestjs/common';
 
 @Controller('jogador')
