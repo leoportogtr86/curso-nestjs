@@ -24,3 +24,9 @@ https://docs.nestjs.com/
 #### Criando um Controller
 
     nest g controller nome-controller    
+
+
+
+#### Criando um Service
+
+    nest g service nome-service    
